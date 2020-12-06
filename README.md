@@ -37,3 +37,24 @@ PORT     STATE SERVICE REASON         VERSION
 |     Request
 --  snip  --
 ```
+### Dumping Git
+* Git repository found!, Lets dump it and run a git checkout
+
+```
+adminer.php  bootstrap  index.php  plugins    server.php  themes
+artisan      config     modules    README.md  storage
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
