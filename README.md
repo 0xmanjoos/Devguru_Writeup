@@ -133,3 +133,15 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 MariaDB [(none)]> 
 ```
 ### And were in, lets take a look around
+* show databases;
+
+* use gitea;
+
+* show tables;
+
+* select * from user;
+
+
+
+
+
