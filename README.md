@@ -182,8 +182,10 @@ update user set salt='PyWam2zNcZ' where salt = 'Bop8nwtUiM';
 
 ![image10](./images/10.gif)
 
-
-
-
+#### Now lets get our rev shell
+* echo "loserman" >> README.md
+* git add *
+* git commit -m "kill_me"
+* git push
 
 
