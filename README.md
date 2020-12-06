@@ -62,6 +62,6 @@ artisan      config     modules    README.md  storage
             'varcharmax' => 191,
         ],
 ```
-
-
+### Lets click on sql command and start messing with the db
+![image](./images/1.png)
 
