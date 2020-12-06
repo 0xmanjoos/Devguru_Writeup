@@ -86,3 +86,6 @@ UPDATE `backend_users` SET `password` = '$2y$12$8uIf92IlXQT9MKVExDhT8uCcqwG3cZ/Q
 
 ### Now lets click on the code section and input the following php
 ![image5](./images/5.png)
+
+### Now we should be able to get an RCE on this system
+
