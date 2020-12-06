@@ -75,3 +75,9 @@ artisan      config     modules    README.md  storage
 ```
 UPDATE `backend_users` SET `password` = '$2y$12$8uIf92IlXQT9MKVExDhT8uCcqwG3cZ/QJRs.gR920igyNV89ACI5m' WHERE `password` = '$2y$12$8uIf92IlXQT9MKVExDhT8uCcqwG3cZ/QJRs.gR920igyNV89ACI5m'
 ```
+### Franks password is now: password
+### Lets login to the October CMS
+
+![image3](./images/3.png)
+
+
