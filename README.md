@@ -94,3 +94,10 @@ http://devguru.thm/about?cmd=whoami
 ### With this, we also get a shell (no python, just python3)
 
 ![image7](./images/7.png)
+
+### Now that we have a shell, we can perform the normal enumeration
+### The interesting thing was found with:
+```
+find / -name *.bak 2>/dev/null | tee /dev/shm/log.txt
+```
+
