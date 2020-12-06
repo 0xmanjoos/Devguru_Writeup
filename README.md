@@ -120,13 +120,16 @@ PASSWD              = UfFPTF8C8jjxVF2m
 SCHEMA              = 
 ```
 ### Nice, lets login to the mysql server
-*This can also be done with adminer but gui bad and only soopr hakrs so were goin with cli
+* This can also be done with adminer but gui bad and only soopr hakrs so were goin with cli
+```
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MariaDB connection id is 2909
+Server version: 10.1.47-MariaDB-0ubuntu0.18.04.1 Ubuntu 18.04
 
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
 
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
-
-
-
-
-
-
+MariaDB [(none)]> 
+```
+### And were in, lets take a look around
