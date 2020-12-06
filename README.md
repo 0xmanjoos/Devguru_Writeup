@@ -4,6 +4,7 @@
 
 ## [ Task 1 ] - user.txt
 * First run an nmap scan
+ᵃⁿᵍʳʸ ᵐᵃⁿ ʷᵃⁿᵗ ᵐᵉ ᵗᵒ ᵘˢᵉ ⁿᵐᵃᵖ
 ### Scan Output:
 ```
 PORT     STATE SERVICE REASON         VERSION
