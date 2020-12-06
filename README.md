@@ -45,7 +45,7 @@ adminer.php  bootstrap  index.php  plugins    server.php  themes
 artisan      config     modules    README.md  storage
 ```
 * It seems theres a database.php file in config/
-config/database.php:
+#### config/database.php:
 
 ```
         'mysql' => [
