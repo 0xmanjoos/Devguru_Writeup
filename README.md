@@ -89,3 +89,8 @@ UPDATE `backend_users` SET `password` = '$2y$12$8uIf92IlXQT9MKVExDhT8uCcqwG3cZ/Q
 
 ### Now we should be able to get an RCE on this system
 
+![image6](./images/6.png)
+
+### With this, we also get a shell (no python, just python3)
+
+![image7](./images/7.png)
