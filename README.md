@@ -4,7 +4,8 @@
 
 ## [ Task 1 ] - user.txt
 
-### Nmap Output:
+* First run an n̶m̶a̶p̶ rustscan* scan
+### Scan Output:
 ```
 PORT     STATE SERVICE REASON         VERSION
 22/tcp   open  ssh     syn-ack ttl 61 OpenSSH 7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
