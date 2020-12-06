@@ -81,5 +81,8 @@ UPDATE `backend_users` SET `password` = '$2y$12$8uIf92IlXQT9MKVExDhT8uCcqwG3cZ/Q
 ![image3](./images/3.png)
 
 ## Now lets click on CMS > About
-## Remove everything on the markup page and insert {{ onFunction }}
+### Remove everything on the markup page and insert {{ onStart }}
 ![image4](./images/4.png)
+
+### Now lets click on the code section
+![image5](./images/5.png)
