@@ -172,15 +172,15 @@ update user set salt='PyWam2zNcZ' where salt = 'Bop8nwtUiM';
 ![image8](./images/8.png)
 
 
-### Nice, hopefully that worked on your end as well
-### Now all we have to do is get the shell
-### Go to devguru-website > settings > githooks > pre-receive
+#### Nice, hopefully that worked on your end as well
+#### Now all we have to do is get the shell
+#### Go to devguru-website > settings > githooks > pre-receive
 
 ![image9](./images/9.png)
 
+#### Toss in a reverse shell of your choice and git clone it
 
-
-
+![image10](./images/10.gif)
 
 
 
