@@ -160,8 +160,14 @@ PASS:!s3SIK-922s3a
                                                                                                                                                      |
                                                                                                                                                      V
 update user set passwd = 'abbf51c3e17081e50408ce68aca97043f88551694894f47456253ee0e864ee138d76a3460555d509a2e7bc01356ae155a4de' where passwd = '[databasehash]';
-```
 
+update user set rands = 'tGiikyeYuF' where rands = 'XueBH0eT2Y';
+
+update user set salt='PyWam2zNcZ' where salt = 'Bop8nwtUiM';
+
+```
+### If this works, and it should unless im incompetent, then franks password on gitea is now:
+### Frank:!s3SIK-922s3a
 
 
 
