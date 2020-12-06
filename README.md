@@ -65,3 +65,11 @@ artisan      config     modules    README.md  storage
 ### Lets click on sql command and start messing with the db
 ![image](./images/1.png)
 
+* select * from backend_users;
+
+![image2](./images/2.png)
+
+### These creds are useless, trust me...
+
+
+
