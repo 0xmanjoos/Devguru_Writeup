@@ -3,8 +3,7 @@
 ### Credits: Zayotic
 
 ## [ Task 1 ] - user.txt
-
-* First run an n̶m̶a̶p̶ rustscan* scan
+* First run an nmap scan
 ### Scan Output:
 ```
 PORT     STATE SERVICE REASON         VERSION
@@ -37,6 +36,7 @@ PORT     STATE SERVICE REASON         VERSION
 |     Request
 --  snip  --
 ```
+^Angry man want me put nmap^
 ### Dumping Git
 * Git repository found!, Lets dump it and run a git checkout
 
