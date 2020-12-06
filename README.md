@@ -188,6 +188,10 @@ update user set salt='PyWam2zNcZ' where salt = 'Bop8nwtUiM';
 * git commit -m "kill_me"
 * git push
 #### Now all we have to do is input our gitea creds from before and we get our reverse shell
+### Nice, Task 1 finished
+
+## [ Task 2 ] - root.txt
+
 * sudo -l
 ```
 Matching Defaults entries for frank on devguru:
