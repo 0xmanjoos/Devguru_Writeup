@@ -84,5 +84,5 @@ UPDATE `backend_users` SET `password` = '$2y$12$8uIf92IlXQT9MKVExDhT8uCcqwG3cZ/Q
 ### Remove everything on the markup page and insert {{ onStart }}
 ![image4](./images/4.png)
 
-### Now lets click on the code section
+### Now lets click on the code section and input the following php
 ![image5](./images/5.png)
