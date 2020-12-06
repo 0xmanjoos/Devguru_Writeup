@@ -44,17 +44,24 @@ PORT     STATE SERVICE REASON         VERSION
 adminer.php  bootstrap  index.php  plugins    server.php  themes
 artisan      config     modules    README.md  storage
 ```
+* It seems theres a database.php file in config/
+config/database.php:
 
-
-
-
-
-
-
-
-
-
-
+```
+        'mysql' => [
+            'driver'     => 'mysql',
+            'engine'     => 'InnoDB',
+            'host'       => 'localhost',
+            'port'       => 3306,
+            'database'   => 'octoberdb',
+            'username'   => 'october',
+            'password'   => 'SQ66EBYx4GT3byXH',
+            'charset'    => 'utf8mb4',
+            'collation'  => 'utf8mb4_unicode_ci',
+            'prefix'     => '',
+            'varcharmax' => 191,
+        ],
+```
 
 
 
