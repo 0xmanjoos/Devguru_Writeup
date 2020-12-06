@@ -36,7 +36,6 @@ PORT     STATE SERVICE REASON         VERSION
 |     Request
 --  snip  --
 ```
-^Angry man want me put nmap^
 ### Dumping Git
 * Git repository found!, Lets dump it and run a git checkout
 
