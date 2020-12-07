@@ -1,3 +1,4 @@
+$bg-gray-dark
 # DevGuru Writeup
 
 ### Credits: Zayotic
