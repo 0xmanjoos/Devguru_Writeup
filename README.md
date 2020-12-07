@@ -1,4 +1,3 @@
-$bg-gray-dark
 # DevGuru Writeup
 
 ### Credits: Zayotic
@@ -7,6 +6,7 @@ $bg-gray-dark
 * First run an nmap scan
 ᵃⁿᵍʳʸ ᵐᵃⁿ ʷᵃⁿᵗ ᵐᵉ ᵗᵒ ᵘˢᵉ ⁿᵐᵃᵖ
 ### Scan Output:
+<div class="text-purple">
 ```
 PORT     STATE SERVICE REASON         VERSION
 22/tcp   open  ssh     syn-ack ttl 61 OpenSSH 7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
@@ -38,6 +38,7 @@ PORT     STATE SERVICE REASON         VERSION
 |     Request
 --  snip  --
 ```
+        </div>
 ### Dumping Git
 * Git repository found!, Lets dump it and run a git checkout
 
