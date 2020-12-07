@@ -6,7 +6,9 @@
 * First run an nmap scan
 ᵃⁿᵍʳʸ ᵐᵃⁿ ʷᵃⁿᵗ ᵐᵉ ᵗᵒ ᵘˢᵉ ⁿᵐᵃᵖ
 ### Scan Output:
-```
+```html
+<body>
+        <p style="color:#FF0000";>
 PORT     STATE SERVICE REASON         VERSION
 22/tcp   open  ssh     syn-ack ttl 61 OpenSSH 7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
 | ssh-hostkey: 
@@ -36,6 +38,7 @@ PORT     STATE SERVICE REASON         VERSION
 |     Connection: close
 |     Request
 --  snip  --
+        </p>
 ```
 ### Dumping Git
 * Git repository found!, Lets dump it and run a git checkout
