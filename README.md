@@ -3,6 +3,9 @@
 ### Credits: Zayotic
 
 ## [ Task 1 ] - user.txt
+<!-- AUTO-GENERATED-CONTENT:START (TOC:collapse=true&collapseText="[ Task 1 ] - user.txt") -->
+<details>
+<summary>"Click to expand"</summary>
 * First run an nmap scan
 ᵃⁿᵍʳʸ ᵐᵃⁿ ʷᵃⁿᵗ ᵐᵉ ᵗᵒ ᵘˢᵉ ⁿᵐᵃᵖ
 ### Scan Output:
@@ -189,7 +192,8 @@ update user set salt='PyWam2zNcZ' where salt = 'Bop8nwtUiM';
 * git push
 #### Now all we have to do is input our gitea creds from before and we get our reverse shell
 ### Nice, Task 1 finished
-
+</details>
+<!-- AUTO-GENERATED-CONTENT:END -->
 ## [ Task 2 ] - root.txt
 
 * sudo -l
